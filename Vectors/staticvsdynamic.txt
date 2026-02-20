@@ -1,0 +1,13 @@
+static memory allocation is done to array 
+it is done with stack
+it is allocated during compile time
+
+dynamic memeory allocation is done to vector
+it is done with heap
+it is allocated during run time
+
+vector has functions called
+size -> returns total number of elements in vector
+capacity-> returns how many it can store
+
+

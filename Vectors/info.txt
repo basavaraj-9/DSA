@@ -1,0 +1,18 @@
+Vectors
+These are just like array
+#arrays are static in nature 
+#vectors are dynamic in nature
+
+vector syntax
+
+vector<int>vec;
+//int is the data type of the vector
+//vec is the name of the vector
+
+vector<int>vec={1,2,3}
+
+vector<int>vec(3,0)
+
+#include<vector>
+
+in vector we use for each loop

@@ -1,0 +1,29 @@
+vector functions
+
+#size
+
+int main(){
+    vector<char>vec={'a','b','c','d'};
+    cout<<"size="<<vec.size()<<endl;
+    return 0;
+}
+
+#push_back
+
+int main()
+{
+    vector<int>vec;
+    cout<<"size="<<vec.size()<<endl;
+
+    vec.push_back(25);
+    cout<<"after push_back="<<vec.size()<<endl;//it pushes the value into the empty vector
+    cout<<"after pop_back="<<vec.size<<endl;//it pops the last element of vector
+    cout<<""after front function="<<vec.front()<<endl;//it returns the first value of vector
+    cout<<"after back function="<<vec.back()<<endl;//it returns the last value of vector
+    cout<<"after at function="<<vec.at(0)<<endl; //it access the value of a particular index   
+    for(int i:vec){
+        cout<<i<<endl;
+    }
+    return 0;
+}
+
